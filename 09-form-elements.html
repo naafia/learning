@@ -22,7 +22,7 @@
                         <option value="4">html</option>
                         <option value="5">python</option>
                     </select>
-
+                        <br>
                     <label>select course</label>
                     <select>
                         <option value="1">c programming</option>
@@ -53,5 +53,50 @@
 
             </form>
         </fieldset>
+        <form>
+            <label for="fname">first name</label><br>
+            <input type="text" id="fname"><br>
+            <label>second name</label><br>
+            <input type="text">
+
+            <br>
+            <input type="radio"id="male" name="gender"value="male">
+            <label for="male">male</label>
+            <br>
+            <input type="radio" id="female" name="gender"value="female">
+            <label for="female">female</label>
+            <hr>
+            <input type="radio"name="gender">male
+            <input type="radio"name="gender">female
+        </form>
+        <form>
+            <label>choose a car</label>
+            <select>
+                <option value="1">"volvo"</option>
+                <option value="2">"saab"</option>
+                <option value="3">"fiat"</option>
+                <option value="4">"audi"</option>
+                <input type="submit" value="submit here">
+            </select>
+        </form>
+        <form>
+            <textarea row="10" columns="30" >
+
+            </textarea><br>
+            
+            <button type="button"onclick="alert(Hello World)">click me</button>
+        </form>
+        <form>
+            <input list="browsers"name="browsers">
+            <datalist id="browsers">
+                <option value="internet explorer"></option>
+                <option value="firefox"></option>
+                <option value="chrome"></option>
+                <option value="safari"></option>
+                <option value="opera"></option>
+                <button>submit</button>
+                <input type="submit">
+            </datalist>
+        </form>
     </body>
 </html>
